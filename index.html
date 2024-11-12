@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Today...</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Inter&family=Lobster:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6cb37575c0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="background-1 mb-[130px]">
+        <nav class="container mx-auto pt-4">
+            <div class="navbar ">
+                <div class="flex-1">
+                  <a class="text-4xl lobster text-black">Donate <span class="text-[#FF5959]">Today</span></a>
+                </div>
+                <div class="flex-none gap-5">
+                  <div class="dropdown dropdown-end">
+                    <div class="flex justify-center items-center gap-1 p-2 pr-3 pl-3 rounded-lg background border">
+                        <h1 class="text-[#FF5959] font-bold text-3xl">$</h1>
+                        <p class="text-white text-2xl font-semibold">55000</p>
+                    </div>
+                  </div>
+                  <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                      <div class="w-10 rounded-full">
+                        <img
+                          alt="Tailwind CSS Navbar component"
+                          src="images/profile.png" />
+                      </div>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li>
+                        <a class="justify-between">
+                          Profile
+                          <span class="badge">New</span>
+                        </a>
+                      </li>
+                      <li><a>Donate History</a></li>
+                      <li><a>Settings</a></li>
+                      <li><a>Logout</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+        </nav>
+        <div class="pt-[170px] pb-[167px]">
+            <h1 class="text-[#FF5959] font-bold text-[65px] text-center inter mb-5">Let’s Help Those Who Are <br> More In Need</h1>
+            <p class="text-lg text-gray-600 text-center poppins mb-11">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli <br> deterruisset. No duo populo animal noluisse, enim</p>
+            <div class="flex justify-center items-center">
+                <button class="p-3 pl-5 pr-5 text-xl inter font-semibold text-white rounded-md bg-[#FF5959] ">Donate Now</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="mb-[130px]">
+            <h1 class="text-center text-[#121212] text-[45px] font-bold inter mb-5">Donate Today</h1>
+            <p class="text-center text-lg text-[#707070] poppins mb-12">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli <br> deterruisset. No duo populo animal noluisse, enim</p>
+            <div class="flex justify-center items-center gap-5 mb-[60px]">
+                <div class="font-bold text-[#707070] text-[30px] inter donate-amount bg-gray-200 rounded-md">100tk</div>
+                <div class="font-bold text-[#707070] text-[30px] inter donate-amount bg-gray-200 rounded-md">200tk</div>
+                <div class="font-bold text-[#FF5959] text-[30px] inter donate-amount bg-[#FFEEEE] rounded-md amount-3">500tk</div>
+                <div class="font-bold text-[#707070] text-[30px] inter donate-amount bg-gray-200 rounded-md">1000tk</div>
+                <div class="font-bold text-[#707070] text-[30px] inter donate-amount bg-gray-200 rounded-md">5000tk</div>
+            </div>
+            <div class="flex justify-center items-center mb-8">
+              <input class="text-center input-1 w-1/2" type="text" placeholder="Other Amount (Taka)">
+            </div>
+            <div class="flex justify-center items-center">
+              <button id="donate-btn" class="p-3 pl-5 pr-5 text-xl inter font-semibold text-white rounded-md bg-[#FF5959] ">Donate Now</button>
+          </div>
+        </section>
+        <section class="mb-[110px]">
+          <h1 class="text-center text-[#121212] text-[45px] font-bold inter mb-5">Our Donate Plan</h1>
+          <p class="text-center text-lg poppins text-[#707070] mb-12">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli <br> deterruisset. No duo populo animal noluisse, enim</p>
+          <div class="container mx-auto grid grid-cols-3 gap-6">
+            <div class="cards bg-[#4F9DA61A] rounded-lg">
+              <img src="icons/food.png" alt="">
+              <h1 class="mt-6 text-[#121212] text-2xl font-semibold poppins mb-4">Food for a family</h1>
+              <p class="text-[#707070] poppins text-[16px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+            <div class="cards bg-[#FF59591A] rounded-lg">
+              <img src="icons/shelter.png" alt="">  
+              <h1 class="mt-6 text-[#121212] text-2xl font-semibold poppins mb-4">Shelter for a family</h1>
+              <p class="text-[#707070] poppins text-[16px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>            
+            </div>
+            <div class="cards bg-[#FFF4D6] rounded-lg">
+              <img src="icons/Frame-1.png" alt="">
+              <h1 class="mt-6 text-[#121212] text-2xl font-semibold poppins mb-4">Education for a child</h1>
+              <p class="text-[#707070] poppins text-[16px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+            </div>
+          </div>
+        </section>
+        <section class="mb-[130px]">
+          <div class="grid grid-cols-2 container mx-auto mb-12 gap-12 p-5 amount-3 rounded-lg">
+            <div>
+              <h1 class="text-[#121212] text-[45px] font-bold inner  mb-5">Their lives depend on your donation</h1>
+              <p class="mb-5 text-lg text-[#707070]">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
+              <p class="text-lg text-[#707070] mb-8">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset.</p>
+              <div class="flex justify-start items-center">
+                <button class="p-3 pl-5 pr-5 text-xl inter font-semibold text-white rounded-md bg-[#FF5959] ">How to Contribute?</button>
+              </div>
+            </div>
+            <div>
+              <img class="rounded-lg" src="images/donation0.jpg" alt="">
+            </div>
+          </div>
+          <div class="grid grid-cols-2 container mx-auto mb-12 gap-12 p-5 amount-3 rounded-lg">
+            <div>
+              <img class="rounded-lg" src="images/donation1.jpg" alt="">
+            </div>
+            <div>
+              <h1 class="text-[#121212] text-[45px] font-bold inner  mb-5">They need us to suvive</h1>
+              <p class="mb-5 text-lg text-[#707070]">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
+              <p class="text-lg text-[#707070] mb-8">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset.</p>
+              <div class="flex justify-start items-center">
+                <button class="p-3 pl-5 pr-5 text-xl inter font-semibold text-white rounded-md bg-[#FF5959] ">How to Contribute?</button>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 container mx-auto mb-12 gap-12 p-5 amount-3 rounded-lg">
+            <div>
+              <h1 class="text-[#121212] text-[45px] font-bold inner  mb-5">They need us to help !..</h1>
+              <p class="mb-5 text-lg text-[#707070]">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
+              <p class="text-lg text-[#707070] mb-8">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset.</p>
+              <div class="flex justify-start items-center">
+                <button class="p-3 pl-5 pr-5 text-xl inter font-semibold text-white rounded-md bg-[#FF5959] ">How to Contribute?</button>
+              </div>
+            </div>
+            <div>
+              <img class="rounded-lg" src="images/donation2.jpg" alt="">
+            </div>
+          </div>
+          <div class="grid grid-cols-2 container mx-auto mb-12 gap-12 p-5 amount-3 rounded-lg">
+            <div>
+              <img class="rounded-lg" src="images/donation3.jpg" alt="">
+            </div>
+            <div>
+              <h1 class="text-[#121212] text-[45px] font-bold inner  mb-5">They need food for survibe in water</h1>
+              <p class="mb-5 text-lg text-[#707070]">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
+              <p class="text-lg text-[#707070] mb-8">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset.</p>
+              <div class="flex justify-start items-center">
+                <button class="p-3 pl-5 pr-5 text-xl inter font-semibold text-white rounded-md bg-[#FF5959] ">How to Contribute?</button>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-end items-center container mx-auto">
+            <button class="p-3 pl-5 pr-5 text-xl inter font-semibold text-white rounded-md bg-[#FF5959] flex justify-center items-center gap-2">
+              <h1>See More</h1>
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </section>
+        <section class="mb-[130px]">
+          <h1 class="text-[45px] font-bold text-center mb-5 text-[#121212]">Get My Updates</h1>
+          <p class="text-[#707070] text-lg text-center mb-12">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli <br> deterruisset. No duo populo animal noluisse, enim</p>
+          <div class="w-3/5 mx-auto p-[76px] bg-[#FFF4D6]">
+            <input type="text" placeholder="Email" class="input-2" />
+            <button class="p-[13px] button-1 pl-5 pr-5 text-xl inter font-semibold text-white -ml-[5px] bg-[#FF5959]">Subscribe</button>
+          </div>
+        </section>
+    </main>
+  <footer class="bg-[#0B0D17] p-[42px]">
+    <h1 class="text-center lobster text-[#FF5959] text-4xl mb-6">Donate Today</h1>
+    <p class="text-center text-sm text-[#D9DBE1]"> I’m gonna do it</p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
